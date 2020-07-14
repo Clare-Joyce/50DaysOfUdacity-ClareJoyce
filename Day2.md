@@ -6,7 +6,7 @@
 ![Screenshot](ud1.PNG)
 
 * The Data science process
-
+![Screenshot](ud2.PNG)
 ## Collect Data: Writing code to
 * query databases
 * retrieve files
