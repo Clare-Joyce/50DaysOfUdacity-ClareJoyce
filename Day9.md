@@ -18,7 +18,7 @@ results of the evaluation.
 **Note:** In this task, we trying to visualize the importance of feature engineering. So, two models were created, one using the raw data
 as it was and the one with engineered features.
 The code used for feature engineering in this lesson
-```
+```ruby
 # The script MUST contain a function named azureml_main
 # which is the entry point for this module.
 
@@ -51,8 +51,10 @@ def azureml_main(dataframe1 = None, dataframe2 = None):
     #   -  Single return value: return dataframe1,
     #   -  Two return values: return dataframe1, dataframe2
     return dataframe1,
-    ```
+```
 **The Evaluation Results**
-1[Evaluation](lab3Evaluation.PNG)
+
+![Evaluation](lab3Evaluation.PNG)
 
 #50daysofudacity:fire:
+
