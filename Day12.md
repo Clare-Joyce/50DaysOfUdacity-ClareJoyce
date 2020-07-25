@@ -52,3 +52,12 @@ The following results were obtained
 
 ### Lab: Train a Simple Classifier with Automated ML
 Compared to other model training labs that have happened so far in this course, the automated ML lab was different and its interface was different.
+Using the same dataset and aiming at having a classification model to predict if a flight will be delayed by more than 15 minutes or not, the 
+following were configured for the automated ML modilling task
+1. Primary metric: AUC weighted
+2. Exit criteria, Training job time (hours): 1
+3. Exit criteria, Metric score threshold: 0.7
+
+This is how the interface looks like when the automated ML is happening on Azure.
+
+![AML](AML.PNG)
